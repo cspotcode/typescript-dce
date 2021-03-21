@@ -1,0 +1,19 @@
+{
+    "files": [
+        "src/mine.ts",
+        "src/compiler/types.ts",
+        "src/compiler/corePublic.ts",
+        "src/compiler/core.ts",
+        "src/shims/collectionShims.ts",
+        "src/compiler/path.ts",
+        "src/compiler/utilities.ts",
+        "src/compiler/watchUtilities.ts",
+        "src/compiler/sys.ts",
+    ],
+    "compilerOptions": {
+        "rootDir": "src",
+        "outFile": "tmp/typescript-tsc.js",
+        "module": "None",
+        "target": "ESNext"
+    }
+}
