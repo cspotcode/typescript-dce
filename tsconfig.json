@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "rootDir": ".",
+        "outDir": "outDir",
+
+        "pretty": true,
+        "lib": ["es2018"],
+        "target": "es2018",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "composite": true,
+        "noEmitOnError": false, // <--
+        "emitDeclarationOnly": false, // <--
+
+        "strict": true,
+        "strictBindCallApply": false,
+        "useUnknownInCatchVariables": false,
+        "noImplicitOverride": true,
+
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "allowUnusedLabels": false,
+
+        "skipLibCheck": true,
+
+        "alwaysStrict": true,
+        "preserveConstEnums": true,
+        "newLine": "lf",
+
+        "types": []
+    }
+}

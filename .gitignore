@@ -1,0 +1,9 @@
+/node_modules
+/typescript
+/out*.mjs
+/out*.js
+/out*.mjs.map
+/out*.js.map
+/outDir
+/shake-sandbox-out.js
+/shake-sandbox-out.js.map
